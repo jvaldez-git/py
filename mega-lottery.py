@@ -2,7 +2,13 @@
 
 import random
 
-# creates 5 unique elements from 1..70 and  a [0-25]+1 number
+
+"""
+
+Randomly  outputs 5 (between 1-70) and a Random 1 number (between 1-25)
+
+"""
+
 randlist = random.sample(range(1,71),k=5) + [" _and_ ", random.choice(range(26))+1]
 print("Mega Lottery")
 print("First Five:")
